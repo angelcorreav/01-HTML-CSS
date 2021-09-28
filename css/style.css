@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Arvo:wght@700&family=Cantarell:ital,wght@1,700&family=Comfortaa:wght@300&family=Lato:ital,wght@1,100&family=Londrina+Solid:wght@300&family=Permanent+Marker&family=Roboto+Condensed:wght@300&family=Stick+No+Bills:wght@200&display=swap');
+/*
+font-family: 'Architects Daughter', cursive;
+font-family: 'Arvo', serif;
+font-family: 'Cantarell', sans-serif;
+font-family: 'Comfortaa', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Londrina Solid', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Stick No Bills', sans-serif;
+*/
+.bg-color-yellow-clear {
+    background-color: #ffe600;
+    color: #fff;
+}
+
+.bg-color-yellow-dark {
+    background-color: #b8860b;
+    color: #fff;
+}
+
+.bg-color-black {
+    background-color: #000;
+    color: #fff
+}
+.parallax {
+
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/21.jpg");  
+    height: 85vh;
+    background-attachment:fixed;
+    background-position: 85% 35%;
+ 
+    animation: alternate expansion 2.5s infinite;
+}
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 890;
+    font-size: 1.8rem;
+    padding: 20px 70px;
+    transition: all .5s;
+}
+h1 {
+    animation: alternate expansion-h1 1s infinite;
+    font-family:'Permanent Marker', cursive
+    80
+
+}
+
+h1,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 890;
+    color: #fff;
+}
+
+nav ul li {
+    padding: 20px 10px;
+    transition: all 500ms;
+}
+
+nav ul li:hover {
+    background-color: #b8860b;
+}
+
+section {
+    padding: 40px 60px;
+    text-align: center;
+}
+
+section .row {
+    padding: 15px 30px;
+}
+section h2,
+section button {
+    font-family: Comfortaa;
+    font-weight: 900;
+    font-size: 1.8rem;
+}
+
+section h3,
+section p,
+section label,
+input,
+textarea,
+footer {
+    font-family: Comfortaa;
+    font-weight: 200;
+}
+
+section#what_is_study_method div.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+section#what_is_study_method h3,
+section#what_is_study_method h2 {
+    text-align: center;
+}
+
+section#what_is_study_method div.row p {
+    padding: 10px 40px;
+    width: 50%;
+    text-align: justify;
+}
+
+section#what_is_study_method img {
+    border-radius: 50%;
+}
+
+section#epl2r {
+    height: 85%;
+}
+
+section#epl2r {
+    text-align: center;
+    color: #fff;
+}
+
+section#epl2r div.row:nth-child(1) {
+    text-align: center;
+    justify-content: center;
+}
+
+section#epl2r div.row:nth-child(2) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section#epl2r div.row:nth-child(2) article:nth-child(odd) {
+    background-color: #b8860b;
+}
+
+section#epl2r div.row:nth-child(2) article:nth-child(even) {
+    background-color: #000;
+}
+
+section#epl2r div.row article {
+    width: 105%;
+    height: 280px;
+    margin: 50px 30px;
+    display: flex;
+    flex-direction:column;
+    border-radius: 100px;
+    transition: all 100ms;
+}
+
+section#epl2r div.row article:hover {
+    transform: scale3d(1.1, 1.1, 1.1) rotateY(7deg) translateZ(50px);
+}
+
+section#epl2r article h2 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+section#epl2r div.row article p {
+    padding: 0px 85px;
+    width: 50%;
+    text-align: center;
+}
+
+section#epl2r article img {
+    width: 305px; 
+    border-radius: 50px 50% 50% 50%;
+    background: #448ed3 ;
+    position: relative;
+    bottom: 140px;
+    margin-left: 63%;
+}
+
+section#gallery img {
+    transition: all 450ms;
+    width: 388px;
+}
+
+section#gallery img:hover {
+    transform: scale3d(1.5, 1.5, 1.5) rotateY(170deg) translateY(1px);
+}
+
+
+section#contact-me {
+    height: 85%;
+}
+
+section#contact-me div.row:nth-child(1) {
+    text-align: center;
+    color: #fff;
+}
+
+section#contact-me label {
+    color: #fff;
+}
+
+section#contact-me form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+section#contact-me form * {
+    background: transparent;
+    color: #fff;
+}
+
+section#contact-me form input,
+section#contact-me form textarea {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+section#contact-me form button {
+    cursor: pointer;
+    border: none;
+    background-color: #b8860b;
+    padding: 15px 30px;
+    transition: all 300ms;
+    font-size: 1.15rem;
+}
+
+section#contact-me form button:hover {
+    background: #b8860b;
+}
+
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    background: #b8860b;
+    padding: 8px 0;
+}
+
+footer div.row {
+    padding: 12px 0px;
+}
+
+footer div.row a,
+footer div.row p {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer div.row a {
+    transition: all 300ms;
+}
+
+footer div.row a:hover {
+    font-size: 120%;
+}
+
+
+a#btn-floating {
+    cursor: pointer;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    background: #000;
+    color: #b8860b;
+    padding: 10px 15px;
+    transition: all 300ms;
+}
+
+a#btn-floating:hover {
+    background: #fff;
+    color: #000;
+    transform: scale(1.3);
+}
+
+
+@keyframes expansion {
+    from {
+        background-position-y: 35%;
+    }
+    to {
+        background-position-y: 45%;
+    }
+}
+
+@keyframes expansion-h1 {
+    from {
+        font-size: 2em;
+    }
+    to {
+        font-size: 5rem;
+    }
+}
+
